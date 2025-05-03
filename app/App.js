@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-function App() {
+export default function App() {
   return <Timers />;
 }
 
@@ -66,5 +66,3 @@ const Timers = () => {
     </div>
   );
 };
-
-export default App;
